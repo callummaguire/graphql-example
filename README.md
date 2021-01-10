@@ -31,4 +31,4 @@ this will get the server up and running on port 4000 and have nodemon watch for 
 
 Please also install redis if you want to use login page.
     
-[Redis](https://redis.io/download)
+[Redis](https://redis.io/topics/quickstart)
