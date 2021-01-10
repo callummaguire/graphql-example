@@ -5,7 +5,6 @@
   "license": "MIT",
   "scripts": {
     "watch": "tsc -w",
-    "start2": "ts-node src/index.ts",
     "dev:watch": "nodemon --exec ts-node src/index.ts && tsc -w",
     "create-migration": "mikro-orm migration:create"
   },
