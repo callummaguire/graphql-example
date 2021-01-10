@@ -4,8 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "watch": "tsc -w",
-    "dev:watch": "nodemon --exec ts-node src/index.ts && tsc -w",
+    "dev:watch": "tsc -w && nodemon --exec ts-node src/index.ts",
     "create-migration": "mikro-orm migration:create"
   },
   "devDependencies": {
