@@ -51,7 +51,7 @@ const main = async () => {
   apolloServer.applyMiddleware({ app, cors: false });
 
   app.listen(4000, () => {
-    console.log("server is listening on port 4000 and new");
+    console.log("server is listening on port 4000 and working");
   });
 };
 
